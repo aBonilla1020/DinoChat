@@ -1,0 +1,37 @@
+.loginBox {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    color: #14E183;
+}
+
+.loginBox input {
+    margin-top: 1.2rem;
+}
+
+.loginBox button {
+    margin-top: 1.2rem;
+}
+
+.createButton {
+    border-radius: 4px;
+    padding: .2rem 0;
+    border: #14E183 solid .8px;
+    background-color: transparent;
+    color: #14E183;
+}
+
+.logButton {
+    margin-top: 17rem;
+    border: none;
+    background-color: transparent;
+    color: #14E183;
+    font-size: 1rem;
+}
+
+.nameCreator {
+    color: #14E183;
+    margin-top: 24rem;
+}

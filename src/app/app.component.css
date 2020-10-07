@@ -1,0 +1,17 @@
+.ventanita {
+    height: 98vh;
+    overflow: scroll;
+    border: #14E183 solid;
+    padding: 1rem;
+    border-radius: 15px;
+}
+
+.title {
+    color: #14E183;
+}
+
+.navbar-dinochat {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+}

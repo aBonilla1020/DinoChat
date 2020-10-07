@@ -1,0 +1,13 @@
+<div class="container">
+    <!-- <h1 class="title">DinoChat</h1> -->
+
+    <div class="col-md-12 text-right mb-2 navbar-dinochat" *ngIf="_cs.usuario.uid">
+        <h1 class="title">DinoChat</h1>
+        <button class="btn btn-outline-danger" (click)="_cs.logout()">Salir</button>
+    </div>
+
+    <div class="ventanita">
+        <app-login *ngIf="!_cs.usuario.uid"></app-login>
+        <app-chat *ngIf="_cs.usuario.uid"></app-chat>
+    </div>
+</div>
