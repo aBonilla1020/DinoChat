@@ -5,14 +5,14 @@
 export const environment = {
   production: false,
   firebase: {
-      apiKey: "AIzaSyC2AHdNj4BO-2-4-9IHmc_xpAR75zRuNOw",
-      authDomain: "dino-chat-e9e91.firebaseapp.com",
-      databaseURL: "https://dino-chat-e9e91.firebaseio.com",
-      projectId: "dino-chat-e9e91",
-      storageBucket: "dino-chat-e9e91.appspot.com",
-      messagingSenderId: "381266655555",
-      appId: "1:381266655555:web:a3f85b49a6926e24efd7f6",
-      measurementId: "G-1BRQ3EL03Y"
+      apiKey: "",
+      authDomain: "",
+      databaseURL: "",
+      projectId: "",
+      storageBucket: "",
+      messagingSenderId: "",
+      appId: "",
+      measurementId: ""
   }
 };
 
